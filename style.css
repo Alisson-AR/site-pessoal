@@ -1,5 +1,6 @@
 body {
-    background: gray
+    background: gray;
+    font-family: Verdana, Geneva, Tahoma;
 }
 
 
@@ -20,16 +21,23 @@ body {
     border: 3px solid rgb(83, 83, 83);
     margin-bottom: 15px;
     border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma;
 }
 
 .post_content {
     margin: 0;
     margin-bottom: 15px;
-
+    font-family: Verdana, Geneva, Tahoma;
 }
 
 .post_image {
     margin-bottom: 15px;
     margin-left: 6.55cm;
     border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma;
+    padding-left: 15px;
 }

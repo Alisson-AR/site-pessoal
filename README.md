@@ -4,9 +4,9 @@
 
 #### 1. Linguagens usadas:
 
-- ##### HTML;
+- ##### HTML5;
 
-- ##### CSS;
+- ##### CSS3;
 
 - ##### Markdown;
 
