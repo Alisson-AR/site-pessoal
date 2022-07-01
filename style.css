@@ -1,43 +1,67 @@
 body {
-    background: gray;
+    background-image: url(https://static.dw.com/image/45348566_303.jpg);
+    background-size: auto;
     font-family: Verdana, Geneva, Tahoma;
+    width: 900px;
+    margin: auto;
 }
 
+.post_image {
+    width: 14cm;
+    border-radius: 5px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
 
-#title, .subtitle, .post_title {
-    color: black;        
+#title {
+    color:antiquewhite;
+    text-align: center;
+    margin: 50px; 
+}
+
+.subtitle {
+    color: antiquewhite; 
+    text-align: center; 
+    margin-bottom: 40px;   
 }
 
 .post_title {
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    margin-bottom:5 px;
+    color:black;
+    font-size: 20px;
+    font-style:italic;
+    margin: 0px;
+    margin-bottom: 25px;
 }
 
 .post {
     background: rgb(165, 163, 163);
-    padding: 15px;
-    border: 3px solid rgb(83, 83, 83);
+    padding: 35px;
+    border: 5px solid rgb(83, 83, 83);
     margin-bottom: 15px;
     border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma;
 }
 
 .post_content {
-    margin: 0;
-    margin-bottom: 15px;
-    font-family: Verdana, Geneva, Tahoma;
-}
-
-.post_image {
-    margin-bottom: 15px;
-    margin-left: 6.55cm;
-    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    text-align: justify;
+    font-weight: 420;
 }
 
 ul {
     list-style-type: none;
     font-family: Verdana, Geneva, Tahoma;
-    padding-left: 15px;
+    padding: 0;
+}
+
+.contact {
+    font-family: Verdana, Geneva, Tahoma;
+    color: antiquewhite; 
+}
+
+.contact_list li a {
+    color: antiquewhite;
+    padding: 0;
 }
